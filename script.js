@@ -46,5 +46,5 @@ function plotMarkers()
     });
     
     map.fitBounds(bounds);
-  });
+  }, 'json');
 }
