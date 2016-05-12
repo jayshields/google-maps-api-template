@@ -23,7 +23,7 @@ function initMap()
   });
 
   fetch('markers.json')
-    .then(response => response.json())
+    .then(function(response){return response.json()})
     .then(plotMarkers);
 }
 
